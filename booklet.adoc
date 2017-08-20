@@ -1,0 +1,193 @@
+//Dati Celebrante
+:nome_celebrante: NOME_COGNOME_CELEBRANTE
+
+//Dati Sposo
+:nome_sposo: NOME_COGNOME_SPOSO
+:nome_sposo_breve: NOME_SPOSO
+:luogo_nascita_sposo: LUOGO_NASCITA_SPOSO
+:data_nascita_sposo: DATA_NASCITA_SPOSO
+:residenza_sposo: LUOGO_RESIDENZA_SPOSO
+
+//Dati Sposa
+:nome_sposa: NOME_COGNOME_SPOSA
+:nome_sposa_breve: NOME_SPOSA
+:luogo_nascita_sposa: LUOGO_NASCITA_SPOSA
+:data_nascita_sposa: DATA_NASCITA_SPOSA
+:residenza_sposa: LUOGO_RESIDENZA_SPOSA
+
+//Dati Testimone Uno (per lo sposo)
+:nome_testimone_uno: NOME_COGNOME_TESTIMONE_1
+:luogo_nascita_testimone_uno: LUOGO_NASCITA_TESTIMONE_1
+:data_nascita_testimone_uno: DATA_NASCITA_TESTIMONE_1
+:residenza_testimone_uno: LUOGO_RESIDENZA_TESTIMONE_1
+
+//Dati Testimone Due (per la sposa)
+:nome_testimone_due: NOME_COGNOME_TESTIMONE_2
+:luogo_nascita_testimone_due: LUOGO_NASCITA_TESTIMONE_2
+:data_nascita_testimone_due: DATA_NASCITA_TESTIMONE_2
+:residenza_testimone_due: LUOGO_RESIDENZA_TESTIMONE_2
+
+//Dati Matrimonio
+:giorno_matrimonio: GIORNO_MATRIMONIO
+:mese_matrimonio: MESE_MATRIMONIO
+:anno_matrimonio: ANNO_MATRIMONIO
+:luogo_matrimonio: LUOGO_MATRIMONIO
+:numero_delibera: NUMERO_DELIBERA
+:data_delibera: GG/MM/AAAA
+
+:header: {luogo_matrimonio}, {giorno_matrimonio}/{mese_matrimonio}/{anno_matrimonio}
+:icons: font
+
+= {nome_sposo_breve} e {nome_sposa_breve}
+{LUOGO_MATRIMONIO}, {giorno_matrimonio}/{mese_matrimonio}/{anno_matrimonio}
+
+== Introduzione del Celebrante
+
+Un  caloroso  benvenuto  a  tutti  voi, oggi siamo qui riuniti per celebrare il matrimonio tra {nome_sposo} e {nome_sposa}, che hanno deciso di percorrere questa strada insieme e desiderano condividere con noi questo momento di gioia.
+
+[NOTE]
+_Può  essere  introdotto  un  discorso  dell’officiante,  nel  caso  in  cui  sia  un amico della coppia e abbia piacere di fare un discorso introduttivo_
+
+<<<
+== Lettura del Memorandum
+
+[NOTE]
+_Fornito dall’ufficio comunale, qui in esempio_
+
+**Celebrante**: L’anno {anno_matrimonio} addí {giorno_matrimonio} del mese di {mese_matrimonio} nell’Ufficio Separato di Stato Civile, Istituito nell’{luogo_matrimonio} con delibera della Giunta Municipale nr. _{numero_delibera}_ del _{data_delibera}_
+
+**Celebrante**: Sei tu {nome_sposo} nato a {luogo_nascita_sposo} il {data_nascita_sposo}, cittadino italiano, residente in {residenza_sposo}?
+
+**Sposo**: Si
+
+**Celebrante**: Sei tu {nome_sposa} nata a {luogo_nascita_sposa} il {data_nascita_sposa}, cittadina italiana, residente in {residenza_sposa}?
+
+**Sposa**: Si
+
+**Celebrante**: {nome_sposo_breve} e {nome_sposa_breve} siete qui comparsi per la celebrazione del vostro matrimonio?
+
+**Sposi**: Si
+
+<<<
+=== Lettura degli articoli del Codice Civile
+
+**Celebrante**:  Per debito d’ufficio, a norma di legge, do lettura degli articoli 143, 144 e 147 del Codice Civile, riguardanti i diritti e i doveri dei coniugi, che voi siete tenuti ad osservare e rispettare:
+
+==== _Art. 143 - Diritti e doveri reciproci dei coniugi_
+
+**Celebrante**: Con il matrimonio il marito e la moglie acquistano gli stessi diritti e assumono i medesimi doveri.
+Dal matrimonio deriva l'obbligo reciproco alla fedeltà, all'assistenza morale e materiale, alla collaborazione nell'interesse della famiglia e alla coabitazione.
+Entrambi i coniugi sono tenuti, ciascuno in relazione alle proprie sostanze e alla propria capacità di lavoro professionale o casalingo, a contribuire ai bisogni della famiglia.
+
+==== _Art. 144 - Indirizzo della vita familiare e residenza della famiglia_
+
+**Celebrante**: I coniugi concordano tra loro l'indirizzo della vita familiare e fissano la residenza della famiglia secondo le esigenze di entrambi e quelle preminenti della famiglia stessa.
+A ciascuno dei coniugi spetta il potere di attuare l'indirizzo concordato.
+
+==== _Art. 147 - Doveri verso i figli_
+
+**Celebrante**: Il matrimonio impone ad ambedue l'obbligo di mantenere, istruire, educare ed assistere moralmente i figli, nel rispetto delle capacità, dell'inclinazione naturale e  aspirazioni, secondo quanto previsto dall’art. 315-bis.
+
+<<<
+=== Interrogazione prima del consenso
+
+**Celebrante**: {nome_sposo_breve} e {nome_sposa_breve} siete venuti a contrarre matrimonio senza alcuna costrizione, in piena libertá e consapevoli del significato della vostra decisione?
+
+**Sposi**: Si
+
+**Celebrante**: Siete disposti, seguendo la via del matrimonio, ad amarvi l’un l’altro per tutta la vita?
+
+**Sposi**: Si
+
+=== Manifestazione del consenso
+
+**Celebrante**: cari {nome_sposo_breve} e {nome_sposa_breve}, se dunque è vostra intenzione unirvi in Matrimonio, datevi la mano destra ed esprimete il vostro consenso.
+
+IMPORTANT: _Gli sposi si danno la mano destra_
+
+**Celebrante**: {nome_sposo_breve} vuoi tu prendere in moglie {nome_sposa_breve} qui presente ed amarla ed onorarla finché morte non vi separi?
+
+**Sposo**: Sì, lo voglio
+
+**Celebrante**: {nome_sposa_breve} vuoi tu prendere in marito {nome_sposo_breve} qui presente ed amarlo ed onorarlo finché morte non vi separi?
+
+**Sposa**: Sì, lo voglio
+
+**Celebrante**: In seguito alle risposte affermative, i testimoni hanno udito?
+
+**Testimoni**: Si
+
+**Celebrante**: In nome della legge dichiaro che il Signor {nome_sposo} e la Signora {nome_sposa} sono uniti in matrimonio.
+
+<<<
+=== Scambio degli Anelli e Promesse
+
+**Celebrante**: E’ giunto il momento dello scambio degli anelli e delle vostre promesse.
+
+IMPORTANT: _Vengono portati gli anelli_
+
+**Celebrante**: Questi anelli, che vi donate scambievolmente, siano il segno del vostro amore e della vostra fedeltà.
+
+IMPORTANT: _Il celebrante consegna allo sposo gli anelli_
+
+**Sposo**: Io, {nome_sposo_breve}, accolgo te, {nome_sposa_breve}, come mia sposa. Prometto di esserti fedele sempre, nella gioia e nel dolore, nella salute e nella malattia, e di amarti e onorarti tutti i giorni della mia vita.
+
+**Sposa**: Io, {nome_sposa_breve}, accolgo te, {nome_sposo_breve}, come mio sposo. Prometto di esserti fedele sempre, nella gioia e nel dolore, nella salute e nella malattia, e di amarti e onorarti tutti i giorni della mia vita.
+
+**Celebrante**: Adesso lo sposo puó baciare la sposa
+
+<<<
+=== Rito della Sabbia
+
+**Celebrante**: L'amore è la forza eterna della vita. L'amore è la forza che ci permette di affrontare la paura e l'incertezza con coraggio. Ma anche se condividerete la vita, non dimenticate di essere due persone distinte.
+
+Coltivate e affermare le vostre differenze. Amatevi l’un l’altro. Mantenetevi fedeli al vostro impegno.
+Insieme potrete ridere e piangere, essere in salute e in malattia, felici e arrabbiati, condividere e crescere. Crescere a volte insieme, a volte separatamente.
+
+A simboleggiare l'importanza dei singoli individui all'interno del matrimonio e l'unione di due vite in una sola entità, riempiremo insieme con 3 colori di sabbia  questo vaso, che rappresenta l’unità e l’impegno che vi promettete l’un l’altra.
+
+**Celebrante**: Questo, è un simbolo che vi saprà guidare ed accompagnare. Sarà qualcosa di più di un semplice vaso di sabbia: sarà un testimone silenzioso nella casa del vostro amore e continuerà a vivere con voi. Anche quando saranno passati alcuni anni vi ricorderà quello che vi siete promessi in questo giorno.
+
+Nelle giornate di sole, quando sprizzerete allegria, quando una bella stella brillerà al vostro orizzonte, non avrete bisogno di guardarlo. Osservatelo invece quando farà notte, quando la tempesta irromperà nelle vostre vite.
+Osservatelo quando dovrete fare un primo passo senza sapere come, quando servirà una spiegazione e non troverete le parole, quando vorrete abbracciarvi ma vi sentirete bloccati: allora guardatelo.
+
+Il suo contenuto sarà per voi un segnale chiaro, perché questa sabbia rappresenta voi due, oggi: quando prendendovi per mano vi siete regalati i vostri cuori.
+
+IMPORTANT: _la sposa, lo sposo e l’officiante prendono ciascuno il suo vaso di sabbia_
+
+**Celebrante**: Cominciamo con uno strato di sabbia che simboleggia il fondamento del matrimonio.
+
+IMPORTANT: _L'officiante versa per primo la sabbia_
+
+**Celebrante**: Poi versiamo i singoli colori, che rappresentano voi {nome_sposo_breve} e {nome_sposa_breve}, tutto quello che eravate, tutto quello che siete e tutto quello che potrete diventare. Questo perché il matrimonio si basa sulla forza dei singoli individui.
+
+IMPORTANT: _Gli sposi versano a turno una parte della loro sabbia_
+
+**Celebrante**: Ed ora uniamo i colori, a simboleggiare due vite unite insieme per sempre. I colori individuali non esisteranno più, ma saranno uniti insieme come una sola cosa. Questa sabbia rappresenta il vostro presente e il vostro futuro: proprio come questi granelli di sabbia non potranno mai essere separati così sarà il vostro matrimonio.
+
+IMPORTANT: _Gli sposi contemporaneamente versano la loro sabbia residua_
+
+<<<
+== Lettura dell'Atto di Matrimonio e Firme
+
+[NOTE]
+_esempio indicativo – verrá fornito dal Comune_
+
+**Celebrante**: Consapevoli dei diritti e dei doveri del matrimonio, vi invito, insieme con i vostri testimoni, a firmare gli atti ufficiali.
+
+**Celebrante**: Procediamo con la lettura dell’Atto di Matrimonio
+
+**Celebrante**: Avanti a me {nome_celebrante} vestito in forma ufficiale, sono personalmente comparsi: {nome_sposo} e {nome_sposa}, residenti a {residenza_sposo} e cittadini italiani, i quali mi hanno richiesto di unirli in matrimonio.
+A questo effetto, mi hanno presentato il documento sotto descritto e dall' esame di questo nonché di quelli già prodotti all' atto della richiesta delle pubblicazioni i quali tutti muniti del mio visto, inserisco nel volume degli allegati a questo registro risultandomi nulla ostare alla celebrazione del loro matrimonio.
+
+Ho letto agli sposi gli articoli 143, 144, 147 del Codice Civile e quindi ho domandato allo sposo {nome_sposo_breve} se intende prendere in moglie la qui presente {nome_sposa_breve} e a questa se intende prendere in marito il qui presente {nome_sposo_breve}, ed avendomi ciascuno risposto affermativamente a piena intelligenza anche dei testimoni sotto indicati, ho pronunziato in nome della legge che i medesimi sono uniti in matrimonio.
+
+A questo atto sono stati presenti due testimoni, per la sposa {nome_testimone_due}, nata a {luogo_nascita_testimone_due} il giorno {data_nascita_testimone_due} e residente a {residenza_testimone_due}, e per lo sposo {nome_testimone_uno}, nato a {luogo_nascita_testimone_uno} il giorno {data_nascita_testimone_uno} e residente a {residenza_testimone_uno}.
+Gli sposi alla presenza degli stessi Testimoni hanno dichiarato di scegliere il regime della separazione dei beni a norma dell’articolo 162 secondo comma del Codice Civile.
+Il presente atto viene letto agli intervenuti i quali lo sottoscrivono.
+
+_(Firme)_
+
+== Conclusione della cerimonia
+
+**Celebrante**: L’officiante dichiara conclusa la cerimonia.

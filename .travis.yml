@@ -5,8 +5,4 @@ python:
 services:
   - docker
 
-install:
-  - build.sh
-  
-script:
-  - docker images
+script: "./build.sh"
